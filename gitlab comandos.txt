@@ -1,0 +1,12 @@
+git initgitgit init
+git status
+git clone "url"
+git remote add origin "url"
+git add .
+git commit -m "comentario"
+git push -u origin master		//-u recursividad
+git status
+
+
+
+STR_TO_DATE(REPLACE($worksheet->getCell($col . $row)->getValue(),'/','.') ,GET_FORMAT(date,'EUR')))

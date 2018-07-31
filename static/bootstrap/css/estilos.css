@@ -1,0 +1,41 @@
+.accordion{
+  border: 1px solid;
+    margin-bottom: 12px;
+    box-shadow: 5px 10px #5c676f;
+}
+
+.accordion1{
+  border: 1px solid;
+    margin-bottom: 12px;
+    box-shadow: 5px 10px #5c676f;
+}
+
+.accordion1:hover{
+  /*border: 2px solid;*/
+  color:#BED5E5;
+  /*
+  -webkit-box-shadow:0 1px 5px 0 #BED5E5;
+  -moz-box-shadow:0 1px 5px 0 #BED5E5;
+  box-shadow:0 1px 5px 0 #BED5E5;
+  box-shadow: 5px 10px #5c676f;
+*/
+}
+
+.accordion1:hover .titlecard{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 450;
+  line-height: 1.1;
+    color: #ffffff;
+  }
+
+
+.accordion1:hover #headingOne, .accordion1:hover #headingTwo, .accordion1:hover #headingThree, .accordion1:hover #headingFour,
+.accordion1:hover #headingFive, .accordion1:hover #headingSix, .accordion1:hover #headingSeven {
+  /*  background-color: #406a80;*/
+  background-color: #BED5E5;
+}
+
+.grad {
+    background: linear-gradient(#ffffff, #BED5E5);
+    color:#000000;
+}
